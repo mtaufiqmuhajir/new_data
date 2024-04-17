@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+    .certificate {
+        flex-grow: 1;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    .sidebar {
+        width: 25%;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+    .menu {
+        list-style-type: none;
+        padding: 0;
+    }
+    .menu li {
+        margin-bottom: 10px;
+    }
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="certificate">
+        <h1>{{.COMPANY_NAME}}</h1>
+        <p>This is to certify that {{.SIGN_NAME1}} has successfully completed {{.SIGN_POS1}} on {{.YEAR}}.</p>
+        <!-- Certificate content goes here -->
+    </div>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li><a href="#">Download Certificate</a></li>
+            <li><a href="#">Share Certificate</a></li>
+            <li><a href="#">Certificate Details</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
