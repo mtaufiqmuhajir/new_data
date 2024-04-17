@@ -48,6 +48,10 @@
         <div>
             {{.SIGN1}}
         </div>
+        <br>
+        <div>
+            <img src="{{.SIGN2}}" alt="sign" width="200" height="100" />
+        </div>
     </div>
     <div class="sidebar">
         <h2>Menu</h2>
