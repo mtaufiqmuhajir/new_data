@@ -45,6 +45,9 @@
         <h1>{{.COMPANY_NAME}}</h1>
         <p>This is to certify that {{.SIGN_NAME1}} has successfully completed {{.SIGN_POS1}} on {{.YEAR}}.</p>
         <!-- Certificate content goes here -->
+        <div>
+            {{.SIGN1}}
+        </div>
     </div>
     <div class="sidebar">
         <h2>Menu</h2>
