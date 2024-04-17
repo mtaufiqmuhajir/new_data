@@ -43,24 +43,25 @@
 <div class="container">
     <div class="certificate">
         <h1>{{.COMPANY_NAME}}</h1>
+        <h4>{{.CERTIFICATE ID}}</h4>
         <p>This is to certify that {{.SIGN_NAME1}} has successfully completed {{.SIGN_POS1}} on {{.YEAR}}.</p>
         <!-- Certificate content goes here -->
-        <div>
-            {{.SIGN1}}
-        </div>
-        <br>
-        <div>
-            <img src="{{.SIGN2}}" alt="sign" width="200" height="100" />
-        </div>
+        <p>{{.NAME}}</p>
+        <div style="display:flex">
+			<div>
+				<img src="{{.SIGN1}}" alt="sign1" width="200" height="100" />
+                <p>{{.SIGN_NAME1}}</p>
+                <p>{{.SIGN_POS1}}</p>
+			</div>
+			<br>
+			<div>
+				<img src="{{.SIGN2}}" alt="sign" width="200" height="100" />
+                <p>{{.SIGN_NAME2}}</p>
+                <p>{{.SIGN_POS2}}</p>
+			</div>
+		</div>
     </div>
-    <div class="sidebar">
-        <h2>Menu</h2>
-        <ul class="menu">
-            <li><a href="#">Download Certificate</a></li>
-            <li><a href="#">Share Certificate</a></li>
-            <li><a href="#">Certificate Details</a></li>
-        </ul>
-    </div>
+   
 </div>
 
 </body>
