@@ -2613,7 +2613,7 @@
 							<div id="poVeFdMPBL47tBdG" style="width:100%;height:100%;opacity:1.0;">
 								<div id="kRrGqQXOcIKZgTJG" style="">
 									<div id="tGjzfe9Z43dDSfTx" style="">
-										<input type="hidden" name="text" id="text" value=".CERT_QR">
+										<input type="hidden" name="text" id="text" value="{{.CERT_QR}}">
 										<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
 										<!-- <img src="{{.CERT_QR}}" alt="cert qr" loading="lazy"
 											style="width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%;transform:translate(-50%, -50%) rotate(0deg);"> -->
